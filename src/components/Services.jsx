@@ -5,11 +5,11 @@ import banner from '../assets/img/banner.jpg'; // Assurez-vous que le chemin est
 const Services = () => {
   return (
     <div>
-      <div className="banner_homepage">
+      <div className="banner_servicespage">
         <img src={banner} alt="Banner" />
       </div>
 
-      <div className="home_content">
+      <div className="services_content">
         <h1>Mon offre de services</h1>
         <p>Voici les prestations sur lesquelles je peux intervenir</p>
       </div>

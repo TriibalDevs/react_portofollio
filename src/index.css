@@ -48,30 +48,164 @@ code {
   font-weight: bold;
 }
 
-.banner_homepage img {
+.banner_homepage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.banner_homepage .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(187, 185, 185, 0.24); /* FOND GRISÉ */
+  z-index: 1;
+}
+
+.banner_homepage .content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.banner_homepage h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner_homepage h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.banner_homepage .btn {
+  background-color: #e53935;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.banner_homepage .btn:hover {
+  background-color: #c62828;
+}
+
+/* Amélioration disposition et responsive de .about-section */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 1000px;
+  gap: 40px;
+}
+
+/* Les deux colonnes prennent 100% en mobile */
+.about-left,
+.about-right {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+/* Image toujours 100% de sa colonne */
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Textes */
+.about-left p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Barre de compétence */
+.skill {
+  margin-bottom: 20px;
+}
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.bar {
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+}
+.fill {
+  height: 100%;
+  transition: width 0.8s ease-in-out;
+}
+
+.about-left h2::after,
+.about-right h2::after {
+  content: "";
+  display: block;
+  width: px;
+  height: 3px;
+  background-color: #3366ff;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+.bar.html .fill { background-color: #e34c26; }
+.bar.css .fill { background-color: #264de4; }
+.bar.js .fill { background-color: #f0db4f; }
+.bar.php .fill { background-color: #4F5D95; }
+.bar.react .fill { background-color: #61DBFB; }
+
+/* Responsive - pile en colonne sur petit écran */
+@media screen and (max-width: 768px) {
+  .about-left, .about-right {
+    flex: 1 1 100%;
+  }
+}
+
+.banner_servicespage img {
   width: 100%;
   height: auto;
 }
 
-.home_content {
+.services_content {
   text-align: center;
   margin: 50px 0;
 }
 
 
-.home_content h1 {
+.services_content h1 {
   font-size: 45px;
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
 
-.home_content p {
+.services_content p {
   font-size: 18px;
   color: rgb(0, 0, 0);
   margin-bottom: 20px;
 }
 
-.home_content::after {
+.services_content::after {
   content: "";
   display: block;
   width: 30%;
