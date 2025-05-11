@@ -5,7 +5,8 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-import Contact from './components/contact'; 
+import Contact from './components/Contact'; 
+import Mentions from './components/Mentions';
 
 class App extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class App extends React.Component {
             <Route path="/services" element={<Services />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/mentions" element={<div>Mentions Légales</div>} />
+            <Route path="/mentions" element={<Mentions />} />
           </Routes>
         </main>
 
