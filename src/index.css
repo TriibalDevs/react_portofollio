@@ -103,6 +103,104 @@ code {
   background-color: #c62828;
 }
 
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-github {
+  background: #1e1e1e;
+  color: white;
+  width: 720px;
+  border-radius: 10px;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.modal-github-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.modal-close {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 15px 0;
+}
+
+.modal-github-body {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+.github-avatar-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.github-info-section {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.github-info-section p {
+  margin: 10px 0;
+}
+
+.github-info-section i {
+  margin-right: 8px;
+  color: #ccc;
+}
+
+.github-info-section a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.github-info-section a:hover {
+  text-decoration: underline;
+}
+
+.modal-github-footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.modal-github-footer button {
+  padding: 8px 14px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-github-footer button:hover {
+  background: #666;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
 /* Amélioration disposition et responsive de .about-section */
 .about-section {
   display: flex;
@@ -182,7 +280,7 @@ code {
   }
 }
 
-.banner_servicespage img {
+.banner img {
   width: 100%;
   height: auto;
 }
@@ -256,6 +354,177 @@ code {
   color: #555555;
 }
 
+.title-portfolio {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.title-portfolio::after {
+  content: "";
+  display: block;
+  width: 28%;
+  height: 6px;
+  background-color: #3366ff;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 2px;
+}
+
+
+.portfolio-container {
+  padding: 0 20px 40px; /* plus de padding-top */
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.title-portfolio {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.title-portfolio h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.title-portfolio p {
+  font-size: 16px;
+  color: #555;
+}
+
+.title-portfolio hr {
+  width: 100px;
+  height: 3px;
+  background-color: #007bff;
+  border: none;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center; /* ✅ centrer tous les textes */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; /* ✅ centrer horizontalement */
+  padding-bottom: 15px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin: 15px 0 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.visit-button {
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.visit-button:hover {
+  background: #0056b3;
+}
+
+.tech {
+  font-size: 13px;
+  color: #999;
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.contact_slogan {
+  text-align: center;
+  margin: 50px 0;
+
+}
+
+.contact_slogan::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 6px;
+  background-color: #3366ff;
+  margin: 0 auto;
+  margin-top: 42px;
+  border-radius: 2px;
+}
+
+.contact_form_title {
+  text-align: left;
+  margin: 150px 0;
+  padding-left: 15%;
+}
+
+.contact_form_title ::after {
+  content: "";
+  display: block;
+  width: 38%;
+  height: 5px;
+  background-color: #3366ff;
+  margin-left: 0%;
+  margin-top: 15px;
+  border-radius: 2px;
+}
+
+/* Responsive pour tablette et mobile */
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .footer {
   background-color: #1f2227;
   padding: 50px 20px;
@@ -299,6 +568,11 @@ code {
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
+}
+
+address a {
+  color: #ffffff;
+  text-decoration: none; /* Optionnel si tu veux enlever le soulignement */
 }
 
 .footer_column ul li a:hover {

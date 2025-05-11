@@ -5,7 +5,7 @@ import banner from '../assets/img/banner.jpg'; // Assurez-vous que le chemin est
 const Services = () => {
   return (
     <div>
-      <div className="banner_servicespage">
+      <div className="banner">
         <img src={banner} alt="Banner" />
       </div>
 
