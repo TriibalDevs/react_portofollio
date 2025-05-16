@@ -1,6 +1,6 @@
 // import React from "react";
 import banner from "../assets/img/banner.jpg";
-import Datas from "./Datas.jsx";
+import Datas from "../components/Datas.jsx";
 
 const Portfolio = () => {
   const dataProjects = Datas();

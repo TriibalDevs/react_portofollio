@@ -1,12 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/Home';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
 import Footer from './components/Footer';
-import Contact from './components/Contact'; 
-import Mentions from './components/Mentions';
+import Contact from './pages/Contact'; 
+import Mentions from './pages/Mentions';
+import Error404 from './pages/404';
 
 class App extends React.Component {
   render() {
