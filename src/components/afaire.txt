@@ -1,2 +1,0 @@
-Intégrer à la place de bootstrap -> tailwind.css 
-Mettre en place components + pages correctement 

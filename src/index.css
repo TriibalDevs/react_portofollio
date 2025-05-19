@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 body {
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
-=======
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,10 +19,7 @@ code {
   justify-content: space-between;
   align-items: center;
   color: white;
-<<<<<<< HEAD
   position: relative;
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 .logo {
@@ -39,10 +28,7 @@ code {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 /* LIENS HORIZONTAUX */
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 .nav-links {
   list-style: none;
   display: flex;
@@ -64,7 +50,6 @@ code {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 /* BOUTON BURGER */
 .burger-btn {
   background: none;
@@ -173,8 +158,6 @@ code {
   }
 }
 
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 .banner_homepage {
   position: relative;
   width: 100%;
@@ -194,12 +177,8 @@ code {
   left: 0;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   background: rgba(187, 185, 185, 0.24);
   /* FOND GRISÉ */
-=======
-  background: rgba(187, 185, 185, 0.24); /* FOND GRISÉ */
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   z-index: 1;
 }
 
@@ -252,11 +231,7 @@ code {
   border-radius: 10px;
   padding: 20px;
   animation: fadeIn 0.3s ease;
-<<<<<<< HEAD
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-=======
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 .modal-github-header {
@@ -333,7 +308,6 @@ hr {
 }
 
 @keyframes fadeIn {
-<<<<<<< HEAD
   from {
     opacity: 0;
     transform: scale(0.95);
@@ -343,10 +317,6 @@ hr {
     opacity: 1;
     transform: scale(1);
   }
-=======
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 /* Amélioration disposition et responsive de .about-section */
@@ -355,11 +325,7 @@ hr {
   flex-wrap: wrap;
   background: white;
   border-radius: 8px;
-<<<<<<< HEAD
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-=======
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   padding: 40px;
   margin: 40px auto;
   max-width: 1000px;
@@ -392,29 +358,17 @@ hr {
 .skill {
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 .skill span {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 .bar {
   background: #eee;
   border-radius: 5px;
   overflow: hidden;
   height: 10px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 .fill {
   height: 100%;
   transition: width 0.8s ease-in-out;
@@ -431,7 +385,6 @@ hr {
   border-radius: 2px;
 }
 
-<<<<<<< HEAD
 .bar.html .fill {
   background-color: #e34c26;
 }
@@ -457,17 +410,6 @@ hr {
 
   .about-left,
   .about-right {
-=======
-.bar.html .fill { background-color: #e34c26; }
-.bar.css .fill { background-color: #264de4; }
-.bar.js .fill { background-color: #f0db4f; }
-.bar.php .fill { background-color: #4F5D95; }
-.bar.react .fill { background-color: #61DBFB; }
-
-/* Responsive - pile en colonne sur petit écran */
-@media screen and (max-width: 768px) {
-  .about-left, .about-right {
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
     flex: 1 1 100%;
   }
 }
@@ -564,18 +506,11 @@ hr {
 
 
 .portfolio-container {
-<<<<<<< HEAD
   padding: 0 20px 40px;
   /* plus de padding-top */
   max-width: 1300px;
   margin: 0 auto;
   font-family: 'Nunito Sans', sans-serif;
-=======
-  padding: 0 20px 40px; /* plus de padding-top */
-  max-width: 1300px;
-  margin: 0 auto;
-  font-family: 'Segoe UI', sans-serif;
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 .banner img {
@@ -621,7 +556,6 @@ hr {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-<<<<<<< HEAD
   text-align: center;
   /* ✅ centrer tous les textes */
   display: flex;
@@ -629,13 +563,6 @@ hr {
   justify-content: flex-start;
   align-items: center;
   /* ✅ centrer horizontalement */
-=======
-  text-align: center; /* ✅ centrer tous les textes */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; /* ✅ centrer horizontalement */
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   padding-bottom: 15px;
 }
 
@@ -692,11 +619,7 @@ hr {
   max-width: 1100px;
   margin: 40px auto;
   padding: 0 20px;
-<<<<<<< HEAD
   font-family: 'Nunito Sans', sans-serif;
-=======
-  font-family: Arial, sans-serif;
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 .contact-header {
@@ -790,20 +713,12 @@ hr {
 }
 
 .legal-container {
-<<<<<<< HEAD
   max-width: 1100px;
   /* élargi */
   margin: 80px auto;
   padding: 20px;
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
-=======
-  max-width: 1100px; /* élargi */
-  margin: 80px auto;
-  padding: 20px;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 .legal-container h1 {
@@ -822,12 +737,8 @@ hr {
 .accordion {
   margin: 0 auto;
   width: 100%;
-<<<<<<< HEAD
   max-width: 950px;
   /* largeur du bloc bleu comme dans ta maquette */
-=======
-  max-width: 950px; /* largeur du bloc bleu comme dans ta maquette */
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   border-radius: 8px;
   overflow: hidden;
 }
@@ -875,15 +786,10 @@ a {
   color: #007bff;
   text-decoration: none;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 a:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .notfound-container {
   min-height: 80vh;
   background-image: url('/src/assets/img/404.jpg');
@@ -935,24 +841,16 @@ a:hover {
   to {
     opacity: 1;
   }
-=======
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 
 /* Responsive pour tablette et mobile */
 @media (max-width: 1024px) {
-<<<<<<< HEAD
   ..nav-links {
     flex-direction: column;
     gap: 0.5rem;
   }
 
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1011,12 +909,8 @@ a:hover {
 
 address a {
   color: #ffffff;
-<<<<<<< HEAD
   text-decoration: none;
   /* Optionnel si tu veux enlever le soulignement */
-=======
-  text-decoration: none; /* Optionnel si tu veux enlever le soulignement */
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 }
 
 .footer_column ul li a:hover {
@@ -1030,23 +924,13 @@ address a {
 .social_icons a {
   margin-right: 10px;
   font-size: 24px;
-<<<<<<< HEAD
   color: rgba(255, 255, 255, 0.3);
   /* Très transparent au repos (30% blanc) */
-=======
-  color: rgba(255, 255, 255, 0.3); /* Très transparent au repos (30% blanc) */
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social_icons a:hover {
-<<<<<<< HEAD
   color: rgba(255, 255, 255, 1);
   /* Devient blanc pur au hover */
   transform: scale(1.2);
 }
-=======
-  color: rgba(255, 255, 255, 1); /* Devient blanc pur au hover */
-  transform: scale(1.2);
-}
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112

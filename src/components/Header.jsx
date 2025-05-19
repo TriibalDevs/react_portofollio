@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
@@ -16,16 +15,6 @@ const Header = () => {
 
       {/* MENU HORIZONTAL - visible tablette + desktop */}
       <nav className="nav-desktop">
-=======
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-
-const Header = () => {
-  return (
-    <header className="header">
-      <div className="logo">JOHN DOE</div>
-      <nav>
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
         <ul className="nav-links">
           <li><NavLink to="/" end>HOME</NavLink></li>
           <li><NavLink to="/services">SERVICES</NavLink></li>
@@ -34,7 +23,6 @@ const Header = () => {
           <li><NavLink to="/mentions">MENTIONS LÉGALES</NavLink></li>
         </ul>
       </nav>
-<<<<<<< HEAD
 
       {/* MENU MOBILE déroulant */}
       {menuOpen && (
@@ -48,8 +36,6 @@ const Header = () => {
           </ul>
         </div>
       )}
-=======
->>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
     </header>
   );
 };
