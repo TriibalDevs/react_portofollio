@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// import React from "react";
+>>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 import banner from "../assets/img/banner.jpg";
 import Datas from "../components/Datas.jsx";
 

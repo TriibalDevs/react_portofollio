@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 import banner from '../assets/img/banner.jpg';
+=======
+import React from 'react';
+import banner from '../assets/img/banner.jpg'; // Assurez-vous que le chemin est correct
+>>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 
 
 const Services = () => {
   return (
     <div>
       <div className="banner">
+<<<<<<< HEAD
         <img src={banner} alt="Banner of alternatives pages" />
+=======
+        <img src={banner} alt="Banner" />
+>>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
       </div>
 
       <div className="services_content">
@@ -15,7 +24,11 @@ const Services = () => {
 
       <div className="services_grid">
         <div className="service_card">
+<<<<<<< HEAD
           <div className="icon"><i className="fas fa-pen-nib"></i></div>
+=======
+          <div className="icon"><i className="fas fa-pen-nib"></i></div> {/* Correction ici */}
+>>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
           <h2>UX Design</h2>
           <p>
             L'UX Design est une discipline qui consiste à concevoir des produits (sites web, applications mobiles, logiciels, objets connectés, etc.) en plaçant l'utilisateur au centre des préoccupations. L'objectif est de rendre l'expérience utilisateur la plus fluide et agréable possible.

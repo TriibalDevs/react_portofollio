@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import React from "react";
+
+>>>>>>> 37b8524889f9015d8a081e486ed8c02a80a59112
 const Contact = () => {
   return (
     <div className="contact-wrapper">
